@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "e2e": "ng e2e",
     "bootstrap": "npm-run-all bootstrap:*",
     "bootstrap:store": "npm explore @angular-redux/store -- npm run build",
@@ -14,24 +14,25 @@
     "bootstrap:router": "npm explore @angular-redux/router -- npm run build"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=16.14.0"
   },
   "dependencies": {
     "@angular-redux/form": "10.0.0",
     "@angular-redux/router": "10.0.0",
     "@angular-redux/store": "10.0.0",
-    "core-js": "2.6.2",
+    "core-js": "^3.30.0",
     "flux-standard-action": "2.0.3",
     "ramda": "0.23.0",
     "redux-logger": "3.0.6",
     "redux-observable": "1.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.12.1",
-    "@angular/cli": "7.2.2",
-    "@angular/language-service": "7.2.0",
+    "@angular-devkit/build-angular": "^16.2.0",
+    "@angular/cli": "^16.2.0",
+    "@angular/language-service": "^16.2.0",
     "@types/ramda": "0.24.18",
     "@types/redux-logger": "3.0.6",
-    "ts-node": "7.0.1"
+    "ts-node": "^10.9.0",
+    "typescript": "~5.0.0"
   }
 }

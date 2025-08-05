@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "es2015",
+    "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "node",
-    "lib": ["esnext", "dom", "dom.iterable"],
+    "lib": ["ES2022", "dom", "dom.iterable"],
     "baseUrl": ".",
     "strict": true,
+    "useDefineForClassFields": false,
     "paths": {
       "@angular-redux/store": ["packages/store/src/index.ts"],
       "@angular-redux/form": ["packages/form/source/index.ts"],

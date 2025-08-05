@@ -27,12 +27,12 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=16.14.0"
   },
   "peerDependencies": {
-    "@angular/core": "^7.0.0",
+    "@angular/core": "^16.2.0",
     "redux": "^4.0.0",
-    "rxjs": "^6.0.0"
+    "rxjs": "^6.5.3 || ^7.4.0"
   },
   "devDependencies": {
     "redux-devtools-extension": "2.13.7"
